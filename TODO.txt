@@ -1,0 +1,8 @@
+ browser.action.onClicked.addListener(handleClick);
+
+do we need to have an API or a call to the webpage
+    to pull the data off? (GET)
+
+POST to
+
+addListener on click at click location

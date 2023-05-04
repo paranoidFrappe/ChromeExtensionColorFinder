@@ -1,0 +1,20 @@
+
+{
+    "manifest_version": 2,
+    "name": "Color Finder",
+    "version": "0.1",
+    "description": "Use this extention to pic the color, right from your screen!",  
+    "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "run_at": "document_idle",
+        "js": ["content.js"]
+      }
+    ],
+    "author": "Eirc Lai, Weston Schott",
+    "web_accessible_resources": ["Dancer001.gif"],
+    "icons": { "16": "dance.png",
+              "48": "dance.png",
+              "128": "dance.png" }
+    
+  }
